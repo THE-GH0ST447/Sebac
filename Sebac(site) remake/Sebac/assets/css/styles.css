@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier Prime', monospace;
+}
+
+body {
+    background-color: #111;
+    color: #FFF;
+    text-align: center;
+}
+
+.titulo{
+    width: 70%;
+}
+
+header {
+    background-color: #222;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.textbox {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#meuBotao{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+    background-color: gray;
+    color: #b7b7b7;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+}
+
+#meuBotao:hover{
+    background-color: transparent;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+#downloadButton{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+    background-color: gray;
+    color: #b7b7b7;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+}
+
+#downloadButton:hover{
+    background-color: transparent;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+footer {
+    background-color: #222;
+    padding: 15.9px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+    bottom: 0px;
+    width: 98%;
+    margin-top: 13.1%;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    text-decoration: none;
+    background-color: gray;
+    justify-content: space-around;
+}
+
+.navbar li {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 100%;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    text-align: center; /* Centralizar o texto */
+}
+
+
+.menu a {
+    display: inline-block; /* Para centralizar o texto verticalmente */
+    color: black;
+    width: 100%;
+    text-decoration: none;
+}
+
+.navbar li:hover {
+    background-color: rgb(39, 38, 38);
+}
+
+#downloadButton a{
+    display: inline-block; /* Para centralizar o texto verticalmente */
+    color: black;
+    width: 100%;
+    text-decoration: none;
+    color: #b7b7b7;
+}
+
+
+#downloadButton a:hover{
+    background-color: transparent;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+
+
+
+
+

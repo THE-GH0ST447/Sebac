@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1b;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, #f1c40f, #f39c12, #e74c3c, #9b59b6, #3498db, #1abc9c, #2ecc71, #f1c40f);
+    background-size: 200% 200%;
+    animation: gradient 5s linear infinite;
+}
+
+form {
+    background-color: #222;
+    padding: 40px;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 300px;
+    margin-top: 20px;
+    transition: transform 0.3s;
+    background: linear-gradient(90deg, #60605f, #4e4d4c, #5a0a02, #1a1a1b, #585858, #352323, #3f3f3f, #585858);
+    background-size: 200% 200%;
+    animation: gradient 5s linear infinite;
+}
+    
+form:hover {
+    transform: scale(1.05);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+h1 {
+    
+    margin-bottom: 210px;
+    font-size: 40px; /* Altere o tamanho da fonte conforme desejado */
+    text-transform: uppercase;
+    color: #ffffff; /* Amarelo */
+    text-align: center; /* Centralize o texto */
+    position: relative;
+    display: inline-block;
+    padding: 0 10px;
+   
+}
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: #222;
+    color: #fff;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #222;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #333;
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-link h4 {
+    text-decoration: none;
+    color: #fff;
+    
+}
